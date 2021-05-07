@@ -1,7 +1,7 @@
 package ca.bertsa.ministere.entities;
 
 public enum TypeLicense {
-    Vaccine, Negative_Test;
+    Vaccine, NegativeTest;
 
     @Override
     public String toString() {
