@@ -15,7 +15,7 @@ public class MinistereService {
         System.out.println(nassm);
         boolean flag = false;
         try {
-            if (repository.findByNoAssuranceMaladieIgnoreCaseAndTypeValidIgnoreCaseAndValid(nassm, type.toString(), true) != null) {
+            if (repository.findByNoAssuranceMaladieIgnoreCaseAndTypeValidAndValid(nassm, type, true) != null) {
                 flag = true;
             }
         } catch (Exception e) {
@@ -30,5 +30,9 @@ public class MinistereService {
 
     public boolean checkCitizenExist(String nassm) {
         return repository.findByNoAssuranceMaladieIgnoreCase(nassm)!=null;
+    }
+
+    public TypeLicense getTypeValidity(String nassm) {
+        return repository.findByNoAssuranceMaladieIgnoreCase(nassm).getTypeValid();
     }
 }

@@ -24,7 +24,8 @@ public class Citizen implements Serializable {
     @Enumerated(EnumType.STRING)
     private Sex sex;
     private boolean valid;
-    private String typeValid;
+    @Enumerated(EnumType.STRING)
+    private TypeLicense typeValid;
 
 }
 
