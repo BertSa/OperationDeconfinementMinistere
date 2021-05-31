@@ -1,17 +1,99 @@
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112220','Samuel','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112221','Samuell','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',false  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112222','Samuelll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112223','Samuellll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',false  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112224','Samuelllll','Bertrand', TO_DATE('11/10/2010','DD/MM/YYYY'),'MALE','VACCINE',false  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112225','Samuellllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112226','Samuelllllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112227','Samuellllllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112228','Samuelllllllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',false  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112229','Samuellllllllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112230','Samuelllllllllll','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112231','Samuellllllllllll','Bertrand', TO_DATE('11/10/2010','DD/MM/YYYY'),'MALE','NEGATIVETEST',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112232','Samuel','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112233','Samuel','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','NEGATIVETEST',false  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112234','Samuel','Bertrand', TO_DATE('11/10/2010','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112235','Samuel','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
-INSERT INTO citizen (no_assurance_maladie,first_name,last_name,birth,sex,type_valid,valid) VALUES ('eeee11112236','Samuel','Bertrand', TO_DATE('11/10/1999','DD/MM/YYYY'),'MALE','VACCINE',true  );
+-- noinspection SqlDialectInspectionForFile
+-- noinspection SqlNoDataSourceInspectionForFile
+
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1999-10-11', 'YYYY-MM-DD'), 'Samuel', 'Bertrand', 'EEEE11112222', 'MALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1912-12-29', 'YYYY-MM-DD'), 'Wilmer', 'Douglas', 'EHTQ34010981', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1943-09-20', 'YYYY-MM-DD'), 'Etha', 'Reichert', 'dZLu36322287', 'OTHER', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1972-03-31', 'YYYY-MM-DD'), 'Austin', 'Connelly', 'qTWT14911550', 'OTHER', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1957-02-10', 'YYYY-MM-DD'), 'Howard', 'Hermann', 'RTZK12607664', 'MALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1984-10-09', 'YYYY-MM-DD'), 'Kevin', 'Mraz', 'ZPAP34080694', 'FEMALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2007-06-11', 'YYYY-MM-DD'), 'Reilly', 'Schultz', 'UNdb63446548', 'OTHER', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1917-06-26', 'YYYY-MM-DD'), 'Hellen', 'Mitchell', 'keCM42137987', 'FEMALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1954-10-28', 'YYYY-MM-DD'), 'Terence', 'Gusikowski', 'vYZI22613049', 'FEMALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1914-12-21', 'YYYY-MM-DD'), 'Mohammed', 'Langosh', 'qvXJ99808420', 'OTHER', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1951-06-30', 'YYYY-MM-DD'), 'Jed', 'Bergstrom', 'zWKV53795080', 'FEMALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1975-11-22', 'YYYY-MM-DD'), 'Verona', 'Aufderhar', 'ZpIS17145150', 'FEMALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1906-02-23', 'YYYY-MM-DD'), 'Sedrick', 'Mohr', 'WtQV57320499', 'MALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1943-02-23', 'YYYY-MM-DD'), 'Stone', 'OKeefe', 'nFat08269205', 'FEMALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2006-05-14', 'YYYY-MM-DD'), 'Arnoldo', 'Weissnat', 'Vdmf14651390', 'OTHER', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1980-08-13', 'YYYY-MM-DD'), 'Annamae', 'Stroman', 'CwrC79585974', 'OTHER', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1958-01-03', 'YYYY-MM-DD'), 'Nigel', 'Moen', 'PUXM04407014', 'OTHER', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1949-12-24', 'YYYY-MM-DD'), 'Laurie', 'Walter', 'HfIG26246271', 'FEMALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1980-05-16', 'YYYY-MM-DD'), 'Eileen', 'Raynor', 'HpFt08468963', 'MALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1914-06-12', 'YYYY-MM-DD'), 'Afton', 'Carroll', 'vXSe27625842', 'MALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1931-10-25', 'YYYY-MM-DD'), 'Fannie', 'Witting', 'pBRd14288219', 'FEMALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2000-12-30', 'YYYY-MM-DD'), 'Noah', 'Blick', 'ybrf96825931', 'MALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1998-10-07', 'YYYY-MM-DD'), 'Abigayle', 'Hackett', 'pzZR66096308', 'OTHER', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1992-12-03', 'YYYY-MM-DD'), 'Paxton', 'Kub', 'iouM82712371', 'MALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1921-11-12', 'YYYY-MM-DD'), 'Blanca', 'Hoppe', 'CMLm36210454', 'FEMALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1944-01-13', 'YYYY-MM-DD'), 'Magdalen', 'Jacobson', 'cPKV37082484', 'FEMALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1976-03-02', 'YYYY-MM-DD'), 'Rosamond', 'Lesch', 'OdXd45401716', 'MALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1924-03-13', 'YYYY-MM-DD'), 'Santino', 'Olson', 'pAvG10703289', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1964-10-03', 'YYYY-MM-DD'), 'Cassie', 'Hills', 'WjKe40254838', 'MALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1972-03-15', 'YYYY-MM-DD'), 'Hester', 'Feil', 'yjzB49158513', 'FEMALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1989-10-29', 'YYYY-MM-DD'), 'Tommie', 'Johnston', 'KSzL47149506', 'OTHER', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1995-08-08', 'YYYY-MM-DD'), 'Henry', 'Powlowski', 'uPXn46301591', 'MALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2017-07-17', 'YYYY-MM-DD'), 'Gwendolyn', 'Beatty', 'Qrgb91973077', 'MALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2021-08-24', 'YYYY-MM-DD'), 'Rasheed', 'Lind', 'lkOf79058372', 'OTHER', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2003-09-21', 'YYYY-MM-DD'), 'Jovan', 'Gerlach', 'nFpR84462954', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1933-02-06', 'YYYY-MM-DD'), 'Alfonzo', 'Hirthe', 'ZfAe30564388', 'MALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1932-06-03', 'YYYY-MM-DD'), 'Eve', 'Watsica', 'QSOo62302530', 'FEMALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1961-11-08', 'YYYY-MM-DD'), 'Rupert', 'Kunde', 'DMuk06456392', 'OTHER', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1956-08-23', 'YYYY-MM-DD'), 'Rosina', 'Ryan', 'noFr47914719', 'MALE', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1978-11-08', 'YYYY-MM-DD'), 'Fern', 'Gislason', 'ItUs71176012', 'OTHER', 'VACCINE', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1911-05-10', 'YYYY-MM-DD'), 'Letitia', 'Spencer', 'gKIS74333885', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1987-07-28', 'YYYY-MM-DD'), 'Jerrell', 'Kshlerin', 'IExh07718077', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2013-10-18', 'YYYY-MM-DD'), 'Will', 'Roob', 'DCcR55640763', 'MALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1920-03-18', 'YYYY-MM-DD'), 'Bria', 'Volkman', 'NShR53841129', 'OTHER', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1924-01-13', 'YYYY-MM-DD'), 'Lucie', 'Harber', 'EeYi79711687', 'FEMALE', 'NEGATIVETEST', true);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('2001-07-07', 'YYYY-MM-DD'), 'Elisa', 'Donnelly', 'sYYN24074136', 'FEMALE', 'NEGATIVETEST', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1983-08-15', 'YYYY-MM-DD'), 'Linnie', 'Robel', 'JlYW93094014', 'MALE', 'VACCINE', false);
+INSERT INTO citizen(birth, first_name, last_name, no_assurance_maladie, sex, type_valid, valid)
+VALUES (TO_DATE('1983-10-26', 'YYYY-MM-DD'), 'Caitlyn', 'Reynolds', 'KnBm42663806', 'OTHER', 'VACCINE', false);

@@ -5,6 +5,10 @@ import lombok.Data;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
 @Entity
 @Data
@@ -29,11 +33,3 @@ public class Citizen implements Serializable {
 
 }
 
-enum Sex {
-    MALE, FEMALE, OTHER;
-
-    @Override
-    public String toString() {
-        return super.name();
-    }
-}
